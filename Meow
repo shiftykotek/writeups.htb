@@ -1,0 +1,8 @@
+Connected to VPN. 
+
+For the tasks that were just vocab practice, I answered what I knew and Googled what I didn't. 
+The questions gave hints on what to do, so I figured out I should use nmap to see that telnet is available, and then connect to it through root.
+Ran the following command: telnet 10.129.183.41
+Typed root into the Meow login, and ran ls to see flag.txt
+Ran the following command: cat flag.txt
+The flag was printed, so I copied that and pasted it into the thing. Pwned, baby!
