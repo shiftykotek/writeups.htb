@@ -1,0 +1,10 @@
+Connected to VPN.
+
+Ran the following command: 
+ftp -a 10.129.38.80
+
+This successfully allowed me to log in to the ftp server on this IP address as an anonymous user.
+By running ls, I was able to see that flag.txt was located on the server.
+I used get flag.txt to download the text file to my VM, and typed exit to exit.
+
+By typing cat flag.txt, I was able to see that the flag was 035db21c881520061c53e0536e44f815. 
